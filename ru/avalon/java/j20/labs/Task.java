@@ -8,5 +8,5 @@ public interface Task {
     /**
      * Запускает задачу на исполнение.
      */
-    void run();
+    <T> void run();
 }
