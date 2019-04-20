@@ -42,6 +42,6 @@ public class Task5 implements Task {
 
         HashSet<Integer> set = Arrays.stream(array).boxed().collect(Collectors.toCollection(HashSet::new));
         System.out.println(set.toString());
-        
+
     }
 }
