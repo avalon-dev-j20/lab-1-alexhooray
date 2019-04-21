@@ -1,5 +1,7 @@
 package ru.avalon.java.j20.labs;
 
+import ru.avalon.java.j20.labs.models.Fibonacci;
+import ru.avalon.java.j20.labs.models.Point;
 import ru.avalon.java.j20.labs.tasks.*;
 
 /**
@@ -28,6 +30,8 @@ public class Application {
      * @param args аргументы командной строки
      */
     public static void main(String[] args) {
+
+
         /*
          * Задачи выполняются последовательно. В порядке,
          * определённом массивом tasks.
